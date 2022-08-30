@@ -1,0 +1,37 @@
+/*
+this is an external css file
+you can write the css code same as the internal css
+syntax is:
+
+select{
+	property:valu;
+	property:value;
+	property:value;
+}
+*/
+
+/*universal selector*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*select by tag*/
+
+div{
+	color:red;
+}
+
+/*select by id*/
+
+#demo{
+	color:green;
+}
+/*select by class*/
+.demo{
+	color:yellow;
+}
+
+/* read more selectors here: https://www.w3schools.com/cssref/css_selectors.asp*/
+
+

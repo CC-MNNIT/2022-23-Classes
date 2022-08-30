@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+.blueDIV {
+  border:30px solid purple;
+  margin:10px;
+  padding:10px;
+  width: 200px;
+
+  background-color:lightblue;
+  /* in border box dimension(width and height) of box include: border + padding +content */
+  box-sizing:border-box;
+}
+#blueDIV2{
+  /* in content box dimension(width and height) of box include only content */
+    box-sizing:content-box;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">The box-sizing Property</h1>
+
+<!-- even for equal width,the size of the two boxes is different -->
+<!-- try to verify this using inspect window -->
+
+<!-- box 1 -->
+<div class = "blueDIV" id="blueDIV1 ">See what different box-sizing values does for an element.</div>
+</div>
+<!-- box 2 -->
+<div class = "blueDIV" id="blueDIV2">See what different box-sizing values does for an element.</div>
+</div>
+
+</body>
+</html>
