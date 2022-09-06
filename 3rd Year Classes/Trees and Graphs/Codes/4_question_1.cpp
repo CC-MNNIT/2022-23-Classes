@@ -102,18 +102,17 @@ int main()
     return 0;
 }   
 
-vector<int> vis, value;
+vector<int> vis, value, dep_dfs, dep_bfs;
 vector<vector<int>> g;
-bool is_present = false;
-int X;
+int Y;
 
-void dfs(int par){
+void dfs(int par, int dep = 0){
     vis[par] = 1;
-    is_present |= (value[par] == X);
+    dep_dfs[par] = dep;
 
     for(int e: g[par]){
         if(!vis[e]){
-            dfs(e);
+            dfs(e, dep + 1);
         }
     }
 }
@@ -123,14 +122,15 @@ void bfs(int par){
     queue<int> q;
     q.push(par);
     vis[par] = 1;
+    dep_bfs[par] = 0;
 
     while(!q.empty()){
         int x = q.front();
         q.pop();
-        is_present |= (value[x] == X);
 
         for(int e: g[x]){
             if(!vis[e]){
+                dep_bfs[e] = dep_bfs[x] + 1;
                 vis[e] = 1;
                 q.push(e);
             }
@@ -140,12 +140,12 @@ void bfs(int par){
 
 void test_case()
 {
-    int n, m;
-    cin>>n>>m;
+    int n;
+    cin>>n;
 
     g.assign(n, {});
 
-    for(int i = 0; i < m; i++){
+    for(int i = 0; i < n - 1; i++){
         int x, y;
         cin>>x>>y;
         g[x].push_back(y);
@@ -157,18 +157,23 @@ void test_case()
 
     debug(value);
 
-    cin>>X;
+    cin>>Y;
 
     vis.assign(n, 0);
+    dep_dfs.assign(n, 0);
     dfs(0);
 
-    // Using dfs
-    cout<<is_present<<"\n";
-
-    is_present = false;
     vis.assign(n, 0);
+    dep_bfs.assign(n, 0);
     bfs(0);
 
-    // using bfs
-    cout<<is_present<<"\n";
+    for(int i = 0; i < n; i++){
+        if(value[i] == Y){
+            cout<<"Using dfs: "<<dep_dfs[i]<<"\n";
+            cout<<"Using bfs: "<<dep_bfs[i]<<"\n";
+            return;
+        }
+    }
+
+    cout<<"Element not present!\n";
 }
