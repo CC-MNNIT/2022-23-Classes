@@ -53,7 +53,7 @@
 		* The file gets downloaded asynchronously along with HTML Parsing but executed as soon as it’s downloaded. 
 		* So, the order of execution is not fixed.
 
-		<div align="center" style="background-color: white; margin: 1rem; padding-top: 1rem;" ><img src="./async-defer.png" alt="async defer"/></div>
+	<div align="center" style="background-color: white; margin: 1rem; padding-top: 1rem;" ><img src="./async-defer.png" alt="async defer"/></div>
 
 	<br>
 *   ### Window Object

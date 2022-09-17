@@ -30,7 +30,7 @@ List of some useful HTML resources to begin with :-
 ## CSS Resources
 List of some useful CSS resources to begin with :-
 
-* [W3Schools](https://www.w3schools.com/js/)
+* [W3Schools](https://www.w3schools.com/css/default.asp)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Kevin Powell Youtube channel](https://www.youtube.com/kepowob)
 * [Webster Classes - MNNIT(online recordings)](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
@@ -38,7 +38,7 @@ List of some useful CSS resources to begin with :-
 ## Basic JS Resources
 List of some useful Basic JS resources to begin with :-
 
-* [W3Schools](https://www.w3schools.com/css/default.asp)
+* [W3Schools](https://www.w3schools.com/js/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [JavaScript Crash Course For Beginners](https://youtu.be/hdI2bqOjy3c)
 * [Webster Classes - MNNIT(online recordings)](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
