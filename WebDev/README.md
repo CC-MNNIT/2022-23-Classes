@@ -34,3 +34,11 @@ List of some useful CSS resources to begin with :-
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Kevin Powell Youtube channel](https://www.youtube.com/kepowob)
 * [Webster Classes - MNNIT(online recordings)](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
+
+## Basic JS Resources
+List of some useful Basic JS resources to begin with :-
+
+* [W3Schools](https://www.w3schools.com/js/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [JavaScript Crash Course For Beginners](https://youtu.be/hdI2bqOjy3c)
+* [Webster Classes - MNNIT(online recordings)](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
