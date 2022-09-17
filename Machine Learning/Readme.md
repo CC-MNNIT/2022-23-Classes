@@ -1,4 +1,4 @@
-# Machine Learning Class resources
+# Machine Learning Class Resources
 <div align="center"><img src="./MachineLearning.jpg" height  = 500/></div>
 
 ## Classes Held
