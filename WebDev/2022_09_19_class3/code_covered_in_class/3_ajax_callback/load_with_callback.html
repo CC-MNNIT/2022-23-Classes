@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Load more data to the page even after the webpage is opened.</h1>
+    <p>This can be done using AJAX</p>
+    <button onclick="load(ajax_loader, '../data/car.html')">GET CAR</button>
+    <button onclick="load(ajax_loader, '../data/bus.html')">GET BUS</button>
+    <button onclick="load(ajax_loader, '../data/cycle.html')">GET CYCLE</button>
+    <button onclick="clearScreen()">CLEAR</button>
+    <div id="disp"></div>
+    <script src="./script_with.js"></script>
+  </body>
+</html>

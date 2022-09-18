@@ -10,6 +10,9 @@
 ## Classes Held
 
 - [Class 1 (HTML): held on August 25, 2022](./2021_08_25_class-1)
+- [Class 2 (JS1): held on September 15,2022](./2022_09_15_class-2/)
+- [Class 2 (JS2): held on September 18,2022](./2022_09_19_class3/)
+
 
 ## Getting Started
 Getting started with Web :-
