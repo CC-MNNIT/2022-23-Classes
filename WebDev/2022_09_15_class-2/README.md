@@ -484,7 +484,7 @@
 	* When a web page is loaded, the browser creates a Document Object Model of the page.
 	* It is the webpage represented in terms of **tree of objects** for easy manipulation in JS code.
 
-	<div align="center" style="margin: 1rem; background-color: white;" ><img src="./DOM.PNG" alt="Comparison Operators" height=300/></div>
+	<div align="center" style="margin: 1rem; background-color: white;" ><img src="./DOM.png" alt="Comparison Operators" height=300/></div>
 
 	<br>
 *	### Dom Manipulation/Query Selection
