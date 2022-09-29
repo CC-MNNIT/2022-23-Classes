@@ -23,10 +23,12 @@
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     const  data = JSON.parse(this.responseText);
+                    // console.log(data);
                     let html_op = "";
                     html_op=data.map(todo => {
                         return `<li class="${todo.completed ? 'checked' : ''}">${todo.title}</li>`;
                     })
+                    console.log(html_op)
                     document.getElementById("disp").innerHTML = html_op.join(" ");
                 }
             }

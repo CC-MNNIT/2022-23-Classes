@@ -1,0 +1,42 @@
+.heading {
+    text-align: center;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list-class {
+    min-width: 50%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.check-btn, .delete-btn {
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.checked {
+    opacity: 0.3;
+    /* text-decoration: line-through; */
+}

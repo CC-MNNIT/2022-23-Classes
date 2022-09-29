@@ -8,11 +8,20 @@
 //   });
 // };
 
-const foo = async () => {
+const foo1 = async () => {
   const database = await connectDatabase();
   const books = await findAllBooks(database);
   const user = await getCurrentUser(database);
   const topRecommendation = await pickTopRecommendation(books, user);
   return topRecommendation;
 };
+
+const foo2 = async () => {
+  const database = await connectDatabase();
+  const books = await findAllBooks(database);
+  const user = await getCurrentUser(database);
+  const topRecommendation = await pickTopRecommendation(books, user);
+  return topRecommendation;
+};
+
 foo();

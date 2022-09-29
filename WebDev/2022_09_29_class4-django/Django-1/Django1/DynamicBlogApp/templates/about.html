@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+
+</style>
+{% endblock %}
+
+{%  block body %}
+<div class="about-section">
+    <h1>About Us Page</h1>
+    <p>We are Computer Coding Club.</p>
+    <p>This tutorial is for django-class 1.</p>
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        {% comment %} src="https://img4.goodfon.com/wallpaper/nbig/1/67/violet-evergarden-devushka-vzgliad-portret.jpg" {% endcomment %}
+        <img src="{% static '/img/male.png' %}"  alt="Div" style="width:100%">
+        <div class="container">
+          <h2>Divyansh Upadhyay</h2>
+          <p class="title">Final Year</p>
+          <p>20198117</p>
+          <p>Information Technology</p>
+<!--          <p><button class="button">Contact</button></p>-->
+        </div>
+      </div>
+    </div>
+   
+    <div class="column">
+      <div class="card">
+        <img src="{% static '/img/female.png' %}"  alt="SY" style="width:100%">
+        <div class="container">
+          <h2>Shreya Yadav</h2>
+          <p class="title">Final Year</p>
+          <p>20198072</p>
+          <p>Information Technology</p>
+<!--          <p><button class="button">Contact</button></p>-->
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="{% static '/img/male.png' %}"  alt="SY" style="width:100%">
+        <div class="container">
+          <h2>Om Kant Mishra</h2>
+          <p class="title">Final Year</p>
+          <p>20198072</p>
+          <p>Information Technology</p>
+<!--          <p><button class="button">Contact</button></p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+{% endblock %}
