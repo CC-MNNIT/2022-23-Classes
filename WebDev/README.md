@@ -11,7 +11,8 @@
 
 - [Class 1 (HTML): held on August 25, 2022](./2021_08_25_class-1)
 - [Class 2 (JS1): held on September 15,2022](./2022_09_15_class-2/)
-- [Class 2 (JS2): held on September 18,2022](./2022_09_19_class3/)
+- [Class 3 (JS2): held on September 18,2022](./2022_09_19_class3/)
+- [Class 4 (Django-1): held on September 29,2022](./2022_09_29_class4-django/)
 
 
 ## Getting Started
@@ -45,3 +46,14 @@ List of some useful Basic JS resources to begin with :-
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [JavaScript Crash Course For Beginners](https://youtu.be/hdI2bqOjy3c)
 * [Webster Classes - MNNIT(online recordings)](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
+
+
+## Django Resources
+
+List of some useful resources to get started with Django :-
+
+* [Corey Schafer-Python](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+* [Corey Schafer-Django](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+* [Official Django Documentation](https://docs.djangoproject.com/en/4.1/)
+* [Django Girls](https://tutorial.djangogirls.org/en/)
+* [Previous CC Classes](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/WebDev)
