@@ -1,12 +1,12 @@
-# Android Development classes resources
+# Android Development Class Resources
 <div align="center">
-<img src="Android-Logo.png"  alt="Android logo" height="150"/>
-<img src="Flutter-Logo.png"  alt="Android logo" height="120"/>
+    <img src="Android-Logo.png"  alt="Android logo" height="150"/>
+    <img src="Flutter-Logo.png"  alt="Android logo" height="120"/>
 </div>
 
-Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/droidrush/)
+Join the Android MNNIT Facebook group for updates regarding Classes and Droidrush : [here](https://www.facebook.com/groups/droidrush/)
 
-## Classes held
+## Classes Held
 
 -   [Class 1: held on Sep 30, 2022 (Introduction to Android, Activity, Layouts and Components)](2022_09_30_Android-Class-1)
 
