@@ -155,6 +155,5 @@
 * Static and static urls in Django
 * Jinja Templating
 * Different Type of URL Parameters
-* 
 <hr>
 
