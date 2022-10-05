@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+         <h1 class="text-center"> List of all blogs </h1>
+    </div>
+    <div class="row">
+        {% for blog in blogs %}
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{blog.title}}</h5>
+                    <p class="card-text">{{blog.description}}.</p>
+                    <a href="{% url 'blog_detail' title=blog.title %}" class="btn btn-primary">Blog Detail</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
