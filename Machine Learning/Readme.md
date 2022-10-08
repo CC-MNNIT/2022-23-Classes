@@ -34,3 +34,8 @@
 - [Python Tutorial for Beginner (English)](https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
 - [Python Tutorial for Beginner (Hindi) - Till Video 76](https://youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME)
 - [Cheatsheet for Python and Data Science](./Python_and_Data_Science_CheetSheet.pdf)
+
+## Contact Your Mentors
+- [Anurag Gupta (7393011475)](https://teams.microsoft.com/l/chat/0/0?users=anurag.gupta@mnnit.ac.in)
+- [Aayush Shandilya (6264465475)](https://teams.microsoft.com/l/chat/0/0?users=aayush.kumar@mnnit.ac.in)
+- [Abhinav Anand (7061730046)](https://teams.microsoft.com/l/chat/0/0?users=abhinav.anand@mnnit.ac.in)
