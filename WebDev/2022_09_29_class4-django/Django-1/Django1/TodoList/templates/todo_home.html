@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container-fluid heading">
+      <h1>To-Do List</h1>
+      <p>My Daily Bucket List!</p>
+    </div>
+
+    <div class="container-fluid">
+      <div class="input-group mb-3">
+          <form action="{% url 'todo-add' %}" method="get">
+        <input id="inputfield"
+          type="text"
+               name="item"
+          class="form-control"
+          placeholder="Add Items to the list"
+        />
+          <button class="input-group-text" type="submit"  id="additems">+</button>
+              </form>
+      </div>
+         <div class="todo-container">
+        <ul class="todo-list-class" id="todo-list">
+            {% for item in list_items %}
+            <li class="todo-item">{{item}} <a href="{%url 'todo-delete' item=item%}"><button class="btn btn-danger delete-btn">Delete</button></a></li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+{% endblock %}

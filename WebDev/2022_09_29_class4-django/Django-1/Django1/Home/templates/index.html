@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <div class="row p-3">
+        <div class="col-sm-6">
+            <div class="card" style="background: yellowgreen">
+                <div class="card-body">
+
+                    <h5 class="card-title text-center">Blog App</h5>
+                    <p class="card-text">To demonstrate how backend automate dynamic url mapping and content.</p>
+                    <a href="{% url 'blog_list' %}" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body" style="background: aquamarine">
+                    <h5 class="card-title text-center">Login App Example</h5>
+                    <p class="card-text">To Demonstrate that backend helps in giving different response on same URL.</p>
+                    <a href="{% url 'home_view' %}" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row p-3">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body" style="background: darksalmon">
+                    <h5 class="card-title text-center">ToDo List Example</h5>
+                    <p class="card-text">To Demonstrate that Users can manipulate data on server.</p>
+                    <a href="{% url 'todo_home' %}" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body" style="background: red">
+                    <h5 class="card-title">Under Development</h5>
+                    <p class="card-text">Warning: Don't Open!!!!!.</p>
+                    <a href="" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
