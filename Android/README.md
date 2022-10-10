@@ -12,6 +12,8 @@ Join the Android MNNIT Facebook group for updates regarding Classes and Droidrus
 
 -   [Class 2: held on Oct 01, 2022 (Intent, Manifest, Permissions, Dependencies, Adapter and RecyclerView)](2022_10_01_Android-Class-2)
 
+-   [Class 3: held on Oct 09, 2022 (API Calls, JSON Parsing, Firebase and Notifications)](2022_10_09_Android-Class-3)
+
 ## Reading Resources
 
 -   <b>Book:</b> Head First Android Development: A Brain-Friendly Guide (by David Griffiths and Dawn Griffiths)
