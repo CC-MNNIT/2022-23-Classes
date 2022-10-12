@@ -5,6 +5,8 @@
 
 - [Class 1: held on September 17, 2022](./Introduction_to_ML.pdf)
 - [Class 2: held on October 4, 2022](./Linear_and_Logistic_Regression)
+- [Class 3: held on October 7, 2022](./KNN_and_Decision_Trees)
+- [Class 4: held on October 11, 2022](./Ensemble_Learning)
 
 ## Machine Learning Resources
 
