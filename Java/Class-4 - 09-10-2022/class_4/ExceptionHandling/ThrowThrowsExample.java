@@ -1,9 +1,13 @@
-package ExceptionHandling;
+package class_4.ExceptionHandling;
 
 public class ThrowThrowsExample {
     public static void main(String[] args) {
         divide1(10, 0);
-        divide2(10, 0);
+        try {
+            divide2(10, 0);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static int divide1(int a, int b) {
