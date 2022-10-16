@@ -1,7 +1,7 @@
 # Android Development Class Resources
 <div align="center">
-    <img src="Android-Logo.png"  alt="Android logo" height="150"/>
-    <img src="Flutter-Logo.png"  alt="Android logo" height="120"/>
+    <img src="Android-Logo.png" alt="Android logo" height="150"/>
+    <img src="Flutter-Logo.png" alt="Android logo" height="120"/>
 </div>
 
 Join the Android MNNIT Facebook group for updates regarding Classes and Droidrush : [here](https://www.facebook.com/groups/droidrush/)
@@ -13,6 +13,12 @@ Join the Android MNNIT Facebook group for updates regarding Classes and Droidrus
 -   [Class 2: held on Oct 01, 2022 (Intent, Manifest, Permissions, Dependencies, Adapter and RecyclerView)](2022_10_01_Android-Class-2)
 
 -   [Class 3: held on Oct 09, 2022 (API Calls, JSON Parsing, Firebase and Notifications)](2022_10_09_Android-Class-3)
+
+-   [Class 4: held on Oct 13, 2022 (Introduction to Flutter, Widgets and Examples of Widgets)](2022_10_13_Android-Class-4)
+
+## Problem Statements
+
+-   [Droidrush 2022 PS](Droidrush2022_PS/Droidrush_Problem_Statements.pdf)
 
 ## Reading Resources
 
