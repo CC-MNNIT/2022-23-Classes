@@ -1,4 +1,4 @@
-package main;
+package request;
 
 public enum RequestType {
     LOGIN_REQUEST,

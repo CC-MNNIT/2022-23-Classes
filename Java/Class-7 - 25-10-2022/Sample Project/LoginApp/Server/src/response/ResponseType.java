@@ -1,4 +1,4 @@
-package main;
+package response;
 
 public enum ResponseType {
     LOGIN_RESPONSE,

@@ -1,4 +1,10 @@
-package main;
+package services;
+
+import main.AppServer;
+import request.LoginRequest;
+import request.SignupRequest;
+import response.LoginResponse;
+import response.SignupResponse;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

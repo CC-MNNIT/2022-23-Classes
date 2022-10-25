@@ -62,7 +62,7 @@ public class SignupRequest extends AppRequest implements Serializable {
     }
 
     @Override
-    RequestType getRequestType() {
+    public RequestType getRequestType() {
         return RequestType.SIGNUP_REQUEST;
     }
 }

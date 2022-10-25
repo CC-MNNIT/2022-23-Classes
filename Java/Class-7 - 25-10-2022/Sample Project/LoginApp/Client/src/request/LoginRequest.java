@@ -32,7 +32,7 @@ public class LoginRequest extends AppRequest implements Serializable {
     }
 
     @Override
-    RequestType getRequestType() {
+    public RequestType getRequestType() {
         return RequestType.LOGIN_REQUEST;
     }
 }
