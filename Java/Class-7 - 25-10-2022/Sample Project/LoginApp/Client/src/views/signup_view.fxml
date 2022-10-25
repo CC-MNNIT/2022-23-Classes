@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="registerPane" prefHeight="354.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignUpController">
+    <VBox alignment="CENTER" layoutX="88.0" layoutY="129.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <Label fx:id="signupLabel" text="Sign Up">
+                <font>
+                    <Font size="27.0" />
+                </font>
+            </Label>
+            <HBox alignment="CENTER">
+                <children>
+                    <TextField fx:id="firstNameField" promptText="First Name">
+                        <HBox.margin>
+                            <Insets right="10.0" />
+                        </HBox.margin>
+                    </TextField>
+                    <TextField fx:id="lastNameField" promptText="Last Name" />
+                </children>
+                <VBox.margin>
+                    <Insets left="5.0" right="5.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" right="5.0" />
+                </padding>
+            </HBox>
+            <HBox alignment="CENTER">
+                <children>
+                    <TextField fx:id="registrationNoField" promptText="Registration Number">
+                        <HBox.margin>
+                            <Insets right="10.0" />
+                        </HBox.margin>
+                    </TextField>
+                    <TextField fx:id="emailIDField" promptText="Email ID" />
+                </children>
+            </HBox>
+            <HBox alignment="CENTER">
+                <children>
+                    <PasswordField fx:id="passwordField" promptText="Password">
+                        <HBox.margin>
+                            <Insets right="10.0" />
+                        </HBox.margin>
+                    </PasswordField>
+                    <PasswordField fx:id="confirmPasswordField" onAction="#checkIfMatches" promptText="Confirm Password" />
+                </children>
+            </HBox>
+            <Button fx:id="registerButton" mnemonicParsing="false" onAction="#register" text="Register" />
+            <Hyperlink fx:id="loginLink" onAction="#switchToLogin" text="Already have an account?" textFill="#130000" underline="true" />
+        </children>
+    </VBox>
+</AnchorPane>

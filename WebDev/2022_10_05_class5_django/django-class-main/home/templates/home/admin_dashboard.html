@@ -1,0 +1,107 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <title>Admin</title>
+
+    {% include 'home/script.html' %}
+
+</head>
+
+<body
+    style="background-image: url('https://wallpaperaccess.com/full/5206080.jpg'); background-repeat: no-repeat;background-size: cover;">
+
+    <h1 style="color: white; margin-top: 5rem;margin-left: 3rem;">ADMIN DASHBOARD</h1>
+    <a href="/logout/"><button style="margin-left: 90%;" type="button" class="btn btn-danger">Logout</button></a>
+
+    <br><br><br><br>
+
+
+    <!-- <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Delete User</th>
+        </tr>
+        {% for user in all_users %}
+        <tr>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.city}}</td>
+            <td><button id="{{user.email}}" class="delete_btn">Delete</button></td>
+        </tr>
+        {% endfor %}
+    </table> -->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="color: white;" scope="col">Email</th>
+                <th style="color: white;" scope="col">Name</th>
+                <th style="color: white;" scope="col">City</th>
+                <th style="color: white;" scope="col">Delte User</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in all_users %}
+            <tr>
+
+                <td style="color: white;">{{user.name}}</td>
+                <td style="color: white;">{{user.email}}</td>
+                <td style="color: white;">{{user.city}}</td>
+                <td><button type="button" id="{{user.email}}" class="delete_btn btn btn-warning">Delete</button></td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+
+</body>
+
+<script>
+    $(".delete_btn").on('click', (e) => {
+        console.log("Delete clicked");
+        let id = e.target.id;
+
+        let conf = confirm("Are you sure you want to delete this user...??");
+
+        if (conf == false)
+            return;
+
+        let url = '/delete_user/';
+        let data = { 'id': id };
+
+        $.ajax({
+            url: url,
+            data: data,
+            success: function () {
+                alert("User Deleted successfully");
+                window.location.reload();
+            },
+            error: function (res) {
+                alert("An error occured.");
+            },
+        });
+
+    })
+</script>
+
+</html>
