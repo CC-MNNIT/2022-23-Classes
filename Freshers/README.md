@@ -2,7 +2,7 @@
 
 [.. Previous Page](..)
 
-<div align="center"><img src="https://raw.githubusercontent.com/CC-MNNIT/2021-22-Classes/main/cclogo.png" height="150"/></div>
+<div align="center"><img src="cclogo.png" height="150"/></div>
 
 ## Classes held
 
@@ -13,5 +13,5 @@
     - [C++ Class 4](C++/Class_04)
     - [C++ Class 5](C++/Class_05)
 
-## Contributors
+## Contributor
  - [Amit Kumar](https://github.com/hackeramitkumar/)
