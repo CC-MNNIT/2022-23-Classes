@@ -1,6 +1,4 @@
-# DSA Class - 2 and 3
-
-#### 12 Jan 2023
+# DSA Class - 5
 
 ## Topics covered:
  - Stack
