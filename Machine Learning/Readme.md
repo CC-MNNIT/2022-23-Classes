@@ -10,7 +10,7 @@
 
 ## Machine Learning Resources
 
-- [Machine Learning and Artificial Intelligence](https://drive.google.com/drive/folders/1zQk_yvuq-XI96EvxN7exS71O-ZeYnYOB?usp=sharing)
+- [Machine Learning and Artificial Intelligence](https://drive.google.com/drive/folders/1x5WcYl0KPeaMIg1dzmVXxnqt4FfYQlZP)
 - [CS229 - Machine Learning by Andrew Ng (For deep understanding of ML)](https://youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 - [Machine Learning Tutorial](https://youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw)
 - [Kaggle Courses](https://www.kaggle.com/learn)
